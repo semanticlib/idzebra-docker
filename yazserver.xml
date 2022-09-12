@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yazgfs>
+  <listen id="tcp9998">tcp:@:9998</listen>
+  <server id="marc" listenref="tcp9998">
+    <directory>/opt/idzebra/marc21</directory>
+    <config>zebra.cfg</config>
+  </server>
+</yazgfs>
